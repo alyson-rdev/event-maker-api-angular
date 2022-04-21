@@ -1,0 +1,12 @@
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\bin\Debug\net5.0\EventMaker.Domain.deps.json
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\bin\Debug\net5.0\EventMaker.Domain.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\bin\Debug\net5.0\ref\EventMaker.Domain.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\bin\Debug\net5.0\EventMaker.Domain.pdb
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.csproj.AssemblyReference.cache
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.AssemblyInfoInputs.cache
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.AssemblyInfo.cs
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\ref\EventMaker.Domain.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Domain\obj\Debug\net5.0\EventMaker.Domain.pdb

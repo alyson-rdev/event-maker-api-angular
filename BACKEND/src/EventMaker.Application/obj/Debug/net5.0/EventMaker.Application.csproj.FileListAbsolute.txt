@@ -1,0 +1,17 @@
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Application.deps.json
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Application.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\ref\EventMaker.Application.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Application.pdb
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Domain.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Persistence.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Persistence.pdb
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\bin\Debug\net5.0\EventMaker.Domain.pdb
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.csproj.AssemblyReference.cache
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.AssemblyInfoInputs.cache
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.AssemblyInfo.cs
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.csproj.CoreCompileInputs.cache
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.csproj.CopyComplete
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\ref\EventMaker.Application.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.Application\obj\Debug\net5.0\EventMaker.Application.pdb

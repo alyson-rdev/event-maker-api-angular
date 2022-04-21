@@ -55,3 +55,9 @@ C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\sr
 C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\EventMaker.Application.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\EventMaker.Domain.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\EventMaker.Persistence.dll
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\EventMaker.Application.pdb
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\EventMaker.Domain.pdb
+C:\Users\alyso\OneDrive\Área de Trabalho\projeto-estagio\event-maker\BACKEND\src\EventMaker.API\bin\Debug\net5.0\EventMaker.Persistence.pdb

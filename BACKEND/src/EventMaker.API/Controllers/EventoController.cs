@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using EventMaker.API.Models;
+using EventMaker.Domain;
+using EventMaker.Persistence.Contextos;
 using Microsoft.AspNetCore.Mvc;
-using ProEventos.API.Data;
 
 namespace EventMaker.API.Controllers
 {
@@ -12,9 +12,9 @@ namespace EventMaker.API.Controllers
     {
 
     
-        private readonly DataContext context;
+        private readonly EventMakerContext context;
 
-        public EventosController(DataContext context)
+        public EventosController(EventMakerContext context)
         {
             this.context = context;
 
@@ -29,7 +29,7 @@ namespace EventMaker.API.Controllers
         [HttpGet("{id}")]
         public Evento GetById(int id)
         {
-            return context.Eventos.FirstOrDefault(evento => evento.EventoId == id);
+            return context.Eventos.FirstOrDefault(evento => evento.Id == id);
         }
 
 

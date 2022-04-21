@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Application\\EventMaker.Application.csproj": {
+                "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Application\\EventMaker.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,23 +46,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -79,6 +83,189 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Application\\EventMaker.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Application\\EventMaker.Application.csproj",
+        "projectName": "EventMaker.Application",
+        "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Application\\EventMaker.Application.csproj",
+        "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj": {
+                "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj"
+              },
+              "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Persistence\\EventMaker.Persistence.csproj": {
+                "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Persistence\\EventMaker.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj",
+        "projectName": "EventMaker.Domain",
+        "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj",
+        "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Persistence\\EventMaker.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Persistence\\EventMaker.Persistence.csproj",
+        "projectName": "EventMaker.Persistence",
+        "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Persistence\\EventMaker.Persistence.csproj",
+        "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj": {
+                "projectPath": "C:\\Users\\alyso\\OneDrive\\Área de Trabalho\\projeto-estagio\\event-maker\\BACKEND\\src\\EventMaker.Domain\\EventMaker.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
