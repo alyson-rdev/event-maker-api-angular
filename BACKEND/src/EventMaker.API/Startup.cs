@@ -1,4 +1,8 @@
+using EventMaker.Application;
+using EventMaker.Application.Contratos;
+using EventMaker.Persistence;
 using EventMaker.Persistence.Contextos;
+using EventMaker.Persistence.Contratos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +29,10 @@ namespace EventMaker.API
                 context => context.UseSqlite(Configuration.GetConnectionString("Default"))
             );
             services.AddControllers();
+            services.AddScoped<IEventoService,EventoService>();
+             services.AddScoped<IGeralPersist, GeralPersist>();
+              services.AddScoped<IEventoPersist, EventoPersist>();
+
             services.AddCors();
             services.AddSwaggerGen(c =>
             {
