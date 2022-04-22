@@ -1,13 +1,41 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContatosComponent } from './components/contatos/contatos.component';
+import { PalestrantesComponent } from './components/palestrantes/palestrantes.component';
+import { PerfilComponent } from './components/user/perfil/perfil.component';
+import { EventoDetalheComponent } from './components/eventos/evento-detalhe/evento-detalhe.component';
+import { EventoListaComponent } from './components/eventos/evento-lista/evento-lista.component';
+import { UserComponent } from './components/user/user.component';
+import { LoginComponent } from './components/user/login/login.component';
+import { RegistrationComponent } from './components/user/login/registration/registration.component';
 
 const routes: Routes = [
+
+
+  {
+    path: 'user', component: UserComponent,
+    children:[
+      {path: 'login', component: LoginComponent},
+      {path: 'registration', component: RegistrationComponent},
+      { path: 'perfil', component: PerfilComponent},
+    ]
+  },
+
   { path: 'home', component: HomeComponent },
-  { path: 'eventos', component: EventosComponent},
+
+  {path: 'eventos', redirectTo: 'eventos/lista'},
+  {
+    path: 'eventos', component: EventosComponent,
+    children: [
+      {path: 'detalhe/:id', component: EventoDetalheComponent},
+      {path: 'detalhe', component: EventoDetalheComponent},
+      {path: 'lista', component: EventoListaComponent}
+    ]
+  },
   { path: 'contatos', component: ContatosComponent},
+  { path: 'palestrantes', component: PalestrantesComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];

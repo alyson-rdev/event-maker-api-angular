@@ -1,5 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient} from '@angular/common/http';
+import { Evento } from './../../interfaces/Evento';
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { EventoService } from '../../services/evento.service';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { ToastrService } from 'ngx-toastr';
+
 
 
 @Component({
@@ -9,51 +13,8 @@ import { HttpClient} from '@angular/common/http';
 })
 export class EventosComponent implements OnInit {
 
-
-  public eventos: any = [];
-  public eventosFiltrados: any = [];
-
-  larguraImagem: number = 150;
-  margemImagem: number = 2;
-  exibirImagem: boolean = true;
-
-  private _filtroLista: string = '';
-
-  public get filtroLista(): string {
-    return this._filtroLista;
-  }
-
-  public set filtroLista(value: string) {
-    this._filtroLista = value;
-    this.eventosFiltrados = this.filtroLista ? this.filtrarEventos(this.filtroLista) : this.eventos;
-  }
-
-  filtrarEventos(filtrarPor: string): any {
-    filtrarPor = filtrarPor.toLocaleLowerCase();
-    return this.eventos.filter(
-      (      evento: { tema: string; local: string; }) => evento.tema.toLocaleLowerCase().indexOf(filtrarPor) !== -1 ||
-      evento.local.toLocaleLowerCase().indexOf(filtrarPor) !== -1
-    )
-  }
-
-  constructor(private http: HttpClient) { }
-
   ngOnInit(): void {
-    this.getEventos();
-  }
 
-  alterarImagem() {
-    this.exibirImagem = !this.exibirImagem;
-  }
-
-  public getEventos(): void {
-    this.http.get('https://localhost:5001/api/eventos').subscribe(
-      response => {
-        this.eventos = response;
-        this.eventosFiltrados = this.eventos;
-      },
-      error => console.log(error)
-    );
   }
 
 }
